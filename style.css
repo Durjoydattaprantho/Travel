@@ -35,7 +35,7 @@ img {
     top: 0;
     height: 80px;
 }
-.navication i {
+.navication button {
     display: none;
 }
 .nav-first-img {
@@ -354,15 +354,19 @@ img {
         display: flex;
         justify-content: space-around;
     }
-    .navication i {
+    .navication button {
         display: block;
-        padding: 20px;
-        background-color: rgb(196, 196, 201);
+        padding: 10px 15px;
+        background-color: rgb(226, 147, 147);
         border-radius: 10px;
         position: relative;
+        color: black;
         order: 1;
+        border: 0;
     }
-
+    .navication button i{
+        font-size: 25px;
+    }
     .nav-first-img {
         display: block;
         position: sticky;
@@ -390,7 +394,7 @@ img {
         flex-direction: column;
         color: black;
     }
-    .navication>i:hover~div {
+    .navication>button:focus~div {
         display: block;
         position: absolute;
     }
