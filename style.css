@@ -231,6 +231,7 @@ img {
 
 .contract .contract-div .redaction .Email {
     display: flex;
+    border: 2px solid black;
     justify-content: space-around;
     /* background-color: darkcyan; */
 }
